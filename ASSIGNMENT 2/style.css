@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#front{
+    background-color: #a9c2cf;
+    height: 100vh;
+    width: 100vw;
+}
+#frimg img{
+    height: 120vh;
+    width: 100vw;
+    margin-left: 1250px;
+    justify-content: right;
+}
+#fronttxt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+#front div *{
+    margin: 20px;
+}
+
+.break{
+    display: block;
+}
