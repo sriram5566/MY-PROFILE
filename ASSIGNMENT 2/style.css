@@ -1,28 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gentium+Book+Plus&family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Finlandica:ital@1&family=Gentium+Book+Plus&family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Finlandica:ital@1&family=Gentium+Book+Plus:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
-#front{
-    background-color: #a9c2cf;
-    height: 100vh;
-    width: 100vw;
+
+body{
+    margin: 0;
 }
-#frimg img{
-    height: 120vh;
-    width: 100vw;
-    margin-left: 1250px;
-    justify-content: right;
-}
-#fronttxt{
+.section{
+    background-color:#b1d4de;
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: left;
+    justify-content: space-between;
+    padding: 100px;
+    width: 90vw;
+    height: 90vh;
 }
-#front div *{
-    margin: 20px;
+.section img{
+    height: 500px;
+    width: 500px;
+}
+.section h1{
+    margin: 0;
+    color: #35393b;
+    font-size: 3.5em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.section h2{
+    color: #686c6e;
+    font-size: 2.0em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.setion p{
+    color: black;
+    font-size: 1.5em;
+}
+div nav ul li{
+    margin: 0 20px;
 }
 
-.break{
-    display: block;
+.nav-link{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #f05136;
+}
+
+.div-1{
+    background-color: #204c69;
+    width: 103vw;
+    height: 15vh;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-2{
+    background-color: #b1d4de;
+    width: 103vw;
+    height: 190vh;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2img{
+    height:100px;
+    width:100px;
+}
+
+.div-3{
+    background-color: #b1d4de;
+    width: 103vw;
+    height: 100vh;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3img{
+    height:100px;
+    width:100px;
+}
+
+.div-4{
+    background-color: #b1d4de;
+    width: 103vw;
+    height: 100vh;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4img{
+    height:350px;
+    width:350px;
+}
+#viewWork{
+    text-decoration: none;
 }
